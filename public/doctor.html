@@ -1,0 +1,24 @@
+Patient Name:
+<input type="text" id="patient">
+
+<br><br>
+
+Action Type:
+<select id="actionType" onchange="checkActionType()">
+  <option>Diagnostic Test</option>
+  <option>Prescription</option>
+</select>
+
+<br><br>
+
+<div id="prescriptionBox" style="display:none;">
+  Write Prescription:
+  <br>
+  <textarea id="note" rows="5" cols="40" placeholder="Write tablets and dosage"></textarea>
+</div>
+
+<br>
+
+<button onclick="createRequest()">Submit</button>
+
+<script src="script.js"></script>
