@@ -57,13 +57,17 @@ Express.js
 Data Handling:
 JSON file storage (data.json)
 
-Project Structure
+Project Structure:
+
 HospitalNetwork/
+
  public/
+ 
     index.html
     doctor.html
     department.html
     timeline.html
+    
  style.css
  script.js
 server.js
