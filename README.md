@@ -63,16 +63,21 @@ HospitalNetwork/
 
  public/
  
-    index.html
-    doctor.html
-    department.html
-    timeline.html
+ index.html
+ doctor.html
+ department.html
+ timeline.html
     
  style.css
+ 
  script.js
+ 
 server.js
+
  data.json
+ 
  package.json
+ 
  package-lock.json
 
 How It Works:
